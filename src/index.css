@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+.popins{
+    font-family: popins,sans-serif;
+}
+.btn{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    
+    box-shadow: #8490ff 0px 10px 10px;
+}
+.ff:hover{
+text-shadow: #8490ff 0px 5px 5px;
+transition: .1s ease-in-out;
+
+}
+.vote{
+background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
